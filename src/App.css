@@ -1,21 +1,5 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,14 +12,6 @@
   color: #61dafb;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 * {
   margin: 0;
   padding: 0;
@@ -43,4 +19,195 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+
+}
+.formbold-mb-5 {
+  margin-bottom: 20px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 230px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 200px;
+  width: 100%;
+  background: 282c34;
+}
+.formbold-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 12px;
+}
+.formbold-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.color {
+  background-color: red;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: 282c34;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+
+.formbold-form-input-2 {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: 282c34;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 28px;
+  border: none;
+  font-weight: 600;
+  background-color: #0d5963;
+  color: white;
+  cursor: pointer;
+  /* margin-bottom: 10px;
+  margin-top: 10px; */
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(29, 148, 148, 0.705);
+}
+
+.formbold--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.formbold-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  color: #25a096;
+}
+
+.container th h1 {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
+
+.container {
+  text-align: left;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  display: table;
+  padding: 0 0 2em 0;
+  margin: 0 auto;
+  min-width: 550px;
+  max-width: 1500px;
+}
+
+.container td,
+.container th {
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+  background-color: #2c3446;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(odd) {
+  background-color: #374a75;
+}
+
+.container th {
+  background-color: #1f2739;
+}
+
+td {
+  padding: 1rem;
+}
+.Details-btn{
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 28px;
+  border: none;
+  font-weight: 600;
+  background-color: #0d5963;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  visibility: hidden
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  border-bottom: 16px solid #3498db;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin-top: 350px;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.margin{
+  margin-top: 30px ;
+  margin-bottom: 40px;
 }
